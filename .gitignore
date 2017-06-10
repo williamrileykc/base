@@ -1,0 +1,83 @@
+# Gulp Dependencies #
+#####################
+node_modules/*
+bower_components/*
+
+# SASS #
+########
+.sass-cache
+*.css.map
+*.map
+
+# Nodejs Log #
+##############
+npm-debug.log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# PHPStorm           #
+######################
+.idea/*
+
+# Log Files #
+#############
+logs/*
+
+# Composer files #
+##################
+composer.phar
+vendor/*
+**/sites/all/libraries
+**/sites/all/*/contrib
+
+# Boost Generated Files #
+#########################
+htdocs/cache/*
+
+# Gulp Dependencies #
+######################
+node_modules/*
+
+# Bower Dependencies #
+######################
+
+# Generated Files #
+###################
+htdocs/sites/all/themes/custom/washington/css
+htdocs/sites/all/themes/custom/washington/js
+htdocs/sites/all/themes/custom/washington/media
+templates/assets/styles
+templates/assets/scripts
+htdocs/feeds/*.xml
+
+# Drupal Composer #
+###################
+htdocs/*
+
+!htdocs/sites
+htdocs/sites/*
+!htdocs/sites/default
+htdocs/sites/default/*
+!htdocs/sites/default/settings.php
+htdocs/sites/default/files/*
+!htdocs/sites/default/files/.gitkeep
+
+!htdocs/sites/all
+htdocs/sites/all/*
+!htdocs/sites/all/modules
+htdocs/sites/all/modules/*
+!htdocs/sites/all/modules/custom
+!htdocs/sites/all/themes
+htdocs/sites/all/themes/*
+!htdocs/sites/all/themes/custom
+
+composer.lock # remove this in real projects!
+
