@@ -1,23 +1,18 @@
 {
-  "name": "Washington",
+  "name": "Base",
   "version": "0.1.0",
-  "homepage": "https://bitbucket.org/mmgyglobal/washington",
+  "homepage": "#",
   "private": true,
   "authors": [
-    "Caleb Zahnd"
+    "Bill Riley"
   ],
-  "description": "Front End framework for Washington.org",
+  "description": "Base framework for new sites",
   "dependencies": {
     "jquery": "~2.2.0",
     "enquire": "~2.1.2",
-    "susy": "~2.2.10",
     "normalize-scss": "~3.0.3",
     "fancyBox": "https://github.com/fancyapps/fancyBox.git#~2.1.5",
-    "sticky-kit": "~1.1.2",
-    "masonry": "https://github.com/desandro/masonry.git#~4.0.0",
     "imagesloaded": "~4.1.0",
-    "footable": "2.0.3",
-    "tooltipster": "~3.3.0",
     "vide": "^0.5.1",
     "slick-carousel": "^1.6.0"
   }
